@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require File.dirname( __FILE__ ) + '/../lib/xls_html_cleaner'
+
+puts XlsHtmlCleaner.new.clean!( readlines.to_s )

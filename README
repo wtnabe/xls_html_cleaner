@@ -1,0 +1,38 @@
+
+= xls_html_cleaner
+
+
+== Description
+
+Clean up your Excel generated HTML
+
+== Installation
+
+=== Archive Installation
+
+	rake install
+
+=== Gem Installation
+
+	gem install xls_html_cleaner
+
+
+== Features/Problems
+
+ * remove not allowed `tags' ( not elements )
+ * remove all attributes
+ * remove comment
+ * leave white spaces
+
+If you give this script a non-html document, I don't know what happens :-)
+
+== Synopsis
+
+ $ xls_html_cleaner SRC_HTML > DEST_HTML
+ $ cat SRC_HTML | xls_html_cleaner
+
+== Copyright
+
+Author::    wtnabe
+Copyright:: Copyright (c) 2010 wtnabe
+License::   Two-clause BSD
